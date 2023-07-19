@@ -8,43 +8,44 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="side-header">
-            <a href="#"><img src="Images/Icons/view-dashboard-outline.svg" alt="dashboard">Dashboard</a>
-        </div>
-        <div class="side-mid">
-            <div class="home">
-                <a href="#"><img src="Images/Icons/home-variant-outline.svg" alt="home">Home</a>
+    <i id="hamburger" class="fa fa-bars hamburger"></i>
+    <aside id="sidebar" class="sidebar">
+        <i id="close-btn" class="fa-solid fa-xmark close-btn"></i>
+            <div class="side-header">
+                <a href="#"><img src="Images/Icons/view-dashboard-outline.svg" alt="dashboard">Dashboard</a>
             </div>
-            <div class="profile-icon">
-                <a href="#"><img src="Images/Icons/account-outline.svg" alt="profile">Profile</a>
+            <div class="side-mid">
+                <div class="home">
+                    <a href="#"><img src="Images/Icons/home-variant-outline.svg" alt="home">Home</a>
+                </div>
+                <div class="profile-icon">
+                    <a href="#"><img src="Images/Icons/account-outline.svg" alt="profile">Profile</a>
+                </div>
+                <div class="messages">
+                    <a href=""><img src="Images/Icons/message-outline.svg" alt="messages">Messages</a>
+                </div>
+                <div class="history">
+                    <a href="#"><img src="Images/Icons/history.svg" alt="history">History</a>
+                </div>
+                <div class="tasks">
+                    <a href="#"><img src="Images/Icons/note-multiple-outline.svg" alt="tasks">Tasks</a>
+                </div>
+                <div class="communities">
+                    <a href="#"><img src="Images/Icons/account-group-outline.svg" alt="communities">Communities</a>
+                </div>
             </div>
-            <div class="messages">
-                <a href=""><img src="Images/Icons/message-outline.svg" alt="messages">Messages</a>
+            <div class="side-bottom">
+                <div class="settings">
+                    <a href="#"><img src="Images/Icons/cog-outline.svg" alt="settings">Settings</a>
+                </div>
+                <div class="support">
+                    <a href=""><img src="Images/Icons/message-question-outline.svg" alt="support">Support</a>
+                </div>
+                <div class="privacy">
+                    <a href="#"><img src="Images/Icons/shield-check-outline.svg" alt="privacy">Privacy</a>
+                </div>
             </div>
-            <div class="history">
-                <a href="#"><img src="Images/Icons/history.svg" alt="history">History</a>
-            </div>
-            <div class="tasks">
-                <a href="#"><img src="Images/Icons/note-multiple-outline.svg" alt="tasks">Tasks</a>
-            </div>
-            <div class="communities">
-                <a href="#"><img src="Images/Icons/account-group-outline.svg" alt="communities">Communities</a>
-            </div>
-        </div>
-        <div class="side-bottom">
-            <div class="settings">
-                <a href="#"><img src="Images/Icons/cog-outline.svg" alt="settings">Settings</a>
-            </div>
-            <div class="support">
-                <a href=""><img src="Images/Icons/message-question-outline.svg" alt="support">Support</a>
-            </div>
-            <div class="privacy">
-                <a href="#"><img src="Images/Icons/shield-check-outline.svg" alt="privacy">Privacy</a>
-            </div>
-        </div>
     </aside>
-    <main>
         <header>
             <div class="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -66,18 +67,16 @@
                 </div>
             </div>
             <nav>
-                <a href="#" class="button">New</a>
-                <a href="#" class="button">Upload</a>
-                <a href="#" class="button">Share</a>
+                <button class="button">New</button>
+                <button class="button">Upload</button>
+                <button class="button">Share</button>
             </nav>
         </div>
     </header>
-        <div class="body-container">
-            <div class="projects">
-                <div class="project-heading"><h2>Your Projects</h2></div>
                 <div class="card-container">
+                    <div class="project-heading"><h2>Your Projects</h2></div> 
                     <div class="card">
-                        <h3>Project 1</h3>
+                        <a href="#">Project 1</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae quam ex molestias consectetur.</p>
                         <div class="card-icon">
                             <img src="Images/Icons/star-plus-outline.svg" alt="star">
@@ -86,7 +85,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <h3>Project 2</h3>
+                        <a href="#">Project 2</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae quam ex molestias consectetur.</p>
                         <div class="card-icon">
                             <img src="Images/Icons/star-plus-outline.svg" alt="star">
@@ -95,7 +94,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <h3>App 1</h3>
+                        <a href="#">App 1</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae quam ex molestias consectetur.</p>
                         <div class="card-icon">
                             <img src="Images/Icons/star-plus-outline.svg" alt="star">
@@ -104,7 +103,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <h3>App 2</h3>
+                        <a href="#">App 2</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae quam ex molestias consectetur.</p>
                         <div class="card-icon">
                             <img src="Images/Icons/star-plus-outline.svg" alt="star">
@@ -113,7 +112,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <h3>Ad Blocker</h3>
+                        <a href="#">Ad Blocker</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae quam ex molestias consectetur.</p>
                         <div class="card-icon">
                             <img src="Images/Icons/star-plus-outline.svg" alt="star">
@@ -122,7 +121,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <h3>Best Project</h3>
+                        <a href="#">Best Project</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae quam ex molestias consectetur.</p>
                         <div class="card-icon">
                             <img src="Images/Icons/star-plus-outline.svg" alt="star">
@@ -157,7 +156,7 @@
                     </div>
                 </div>
                 <div class="side-content-bot">
-                    <h2 class="padding">Trending</h2>
+                    <div class="side-content-heading"><h2 class="padding">Trending</h2></div>
                     <div class="trending-container">
                         <div class="profiles flex-inside">
                             <img class="circle-img" src="Images/Bunny.jpg" alt="bunny-img">
@@ -187,10 +186,8 @@
                                 <p>Translator app</p>
                             </div>
                         </div>
-                    </div>
-                </div>
             </aside>
         </div>
-        </main>
+        <script src="script.js"></script>
 </body>
 </html>
